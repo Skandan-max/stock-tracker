@@ -1,0 +1,65 @@
+{
+  "Users": [
+    {
+      "id": "SHLOK",
+      "password": "helloworld",
+      "stocks": [
+        {
+          "stock": "AAPL",
+          "pricebought": 200,
+          "quantity": 0
+        },
+        {
+          "stock": "AAPL",
+          "pricebought": 400,
+          "quantity": 0
+        },
+        {
+          "stock": "AAPL",
+          "pricebought": 200,
+          "quantity": 0
+        },
+        {
+          "stock": "TYL",
+          "pricebought": "65",
+          "quantity": "57"
+        },
+        {
+          "stock": "33",
+          "pricebought": "0123",
+          "quantity": "012"
+        },
+        {
+          "stock": "UOR",
+          "pricebought": "9234",
+          "quantity": "758"
+        },
+        {
+          "stock": "UOR",
+          "pricebought": "9234",
+          "quantity": "758"
+        },
+        {
+          "stock": "",
+          "pricebought": 0,
+          "quantity": 0
+        },
+        {
+          "stock": "rat",
+          "pricebought": "0123",
+          "quantity": "03"
+        },
+        {
+          "stock": "rsdf",
+          "pricebought": "01231",
+          "quantity": "0323"
+        },
+        {
+          "stock": "AAPL",
+          "pricebought": 178.18,
+          "quantity": "15"
+        }
+      ]
+    }
+  ]
+}

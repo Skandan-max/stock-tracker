@@ -23,7 +23,7 @@ const AddStock = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        
+        console.log(e)
         try{
             let newstocks = props.to.stocks;
             console.log(newstocks)
@@ -59,6 +59,7 @@ const AddStock = (props) => {
 
     return ( 
         <div className="addstock">
+            <h2>Add Stocks</h2>
             <form>
                 <label>Stock Symbol</label><br/>
                 <input type="text" value={stockSymbol} onChange={(e) => {
@@ -70,7 +71,7 @@ const AddStock = (props) => {
                 <label>Price bought at</label><br/>
                 <h3>${price}</h3>
                 {/* <input type="number" value={price} onChange={(e) => setPrice(e.target.value)}/><br/> */}
-                <button onClick={(e) => {handleSubmit(e)}}>Add To Portfolio</button>
+                <button onClick={(e) => {handleSubmit(e)} } disabled={!quantityBought || !stockSymbol || !price}>Add To Portfolio</button>
             </form>
 
         </div>

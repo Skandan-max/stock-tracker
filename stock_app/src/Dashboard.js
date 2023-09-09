@@ -10,7 +10,7 @@ const Dashboard = () => {
     return ( 
         <div className="dashboard-display">
             <Navbar name={data.id}/>
-            <div>
+            <div className="container">
                 <AddStock to={data}/>  
                 <DisplayStock data={data}/>
             </div>

@@ -1,3 +1,48 @@
-.navbar {
-    text-align: center;
+*{
+    font-family: "Inter";
+    margin: 0px;
 }
+
+.App {
+    background-color: rgb(47, 217, 255);
+    height: 100vh;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar h2 {
+    padding-left: 15px;
+}
+
+.addstock {
+    background-color: rgb(0, 162, 255);
+    padding: 30px;
+    border-radius: 15px;
+    color: rgb(0, 0, 60);
+}
+
+.addstock 
+
+.addstock h2 {
+    text-align: center;
+    padding: 15px;  
+}
+
+.profile-pic{
+    background-image: url("../assets/Profile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height:50px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-evenly;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap')

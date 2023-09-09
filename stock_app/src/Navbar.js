@@ -1,7 +1,8 @@
 const Navbar = (props) => {
     return ( 
         <div className="navbar">
-            <h2>Name : {props.name}</h2>
+            <div className="profile-pic"></div>
+            <h2>{props.name}'s Portfolio</h2>
         </div>
      );
 }

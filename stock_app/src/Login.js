@@ -11,6 +11,7 @@ const Login = () => {
         try {
             let res = await axios.get(`http://localhost:8000/Users/${userName}`);
             const datafound = res.data
+            
             navigate("/dashboard", {state : {datafound}})
         }
         catch(error){
@@ -20,13 +21,16 @@ const Login = () => {
     }       
     return ( 
         <div className="loginpage">
-            <form>
-                <label>User Name</label><br/>
-                <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)}/><br/>
-                <label>Password</label><br/>
-                <input type="password" value={Pass} onChange={(e) => setPass(e.target.value)}/><br/>
-                <button onClick={(e) => {handleSubmit(e)}}>Login</button>
-            </form>
+            <div>
+                <h1>LOGIN</h1>
+                <form>
+                    <label>User Name</label><br/>
+                    <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)}/><br/>
+                    <label>Password</label><br/>
+                    <input type="password" value={Pass} onChange={(e) => setPass(e.target.value)}/><br/>
+                    <button onClick={(e) => {handleSubmit(e)}}>Login</button>
+                </form>
+            </div>
         </div>
      );
 }

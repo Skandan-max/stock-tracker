@@ -12,7 +12,7 @@ const AddStock = (props) => {
 
     const getQuote = async (symbol) => {
         try {
-            fetch(`https://finnhub.io/api/v1/quote?symbol=${symbol}&token=chqctl9r01qv883frg0gchqctl9r01qv883frg10`).then(response => {
+            fetch(`https://finnhub.io/api/v1/quote?symbol=${symbol}&token=cjuc9q9r01qlodk32pngcjuc9q9r01qlodk32po0`).then(response => {
             return response.json();
             }).then(data => setPrice(data.c))
         }catch(error){
@@ -23,7 +23,7 @@ const AddStock = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        console.log(e)
+        //console.log(e)
         try{
             let newstocks = props.to.stocks;
             console.log(newstocks)
@@ -49,6 +49,7 @@ const AddStock = (props) => {
 
             let res = await axios.get(`http://localhost:8000/Users/${props.to.id}`);
             const datafound = res.data
+            
             navigate("/dashboard", {state : {datafound}})
 
         }

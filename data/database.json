@@ -6,33 +6,29 @@
       "stocks": [
         {
           "stock": "AAPL",
-          "pricebought": 200,
-          "quantity": 0
-        },
+          "pricebought": 150,
+          "quantity": "70"
+        }
+      ]
+    },
+    {
+      "id": "USER1",
+      "password": "helloworld",
+      "stocks": [
         {
           "stock": "AAPL",
-          "pricebought": 400,
-          "quantity": 0
-        },
-        {
-          "stock": "AAPL",
-          "pricebought": 200,
-          "quantity": 0
-        },
-        {
-          "stock": "",
-          "pricebought": 0,
-          "quantity": 0
-        },
-        {
-          "stock": "HELLO",
-          "pricebought": 0,
-          "quantity": "234"
+          "pricebought": 150.24,
+          "quantity": "100"
         },
         {
           "stock": "NKE",
-          "pricebought": 97.67,
-          "quantity": "234"
+          "pricebought": 40.25,
+          "quantity": "104"
+        },
+        {
+          "stock": "TSLA",
+          "pricebought": 248.5,
+          "quantity": "50"
         }
       ]
     }

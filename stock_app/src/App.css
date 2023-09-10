@@ -1,13 +1,48 @@
 *{
     font-family: "Inter";
     margin: 0px;
+    color: white;
+    
 }
 
 .App {
-    background-color: rgb(47, 217, 255);
+    background-color:rgb(54, 54, 54);
     height: 100vh;
+    overflow: hidden;
     
 }
+
+.loginpage {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.addstock input{
+    
+
+    color: black;
+}
+
+.addstock button{
+    margin-top: 15px;
+    color: black;
+}
+
+.loginpage form input {
+    color: black
+
+}
+.loginpage button{
+    color:black;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    
+}
+
 
 .navbar {
     display: flex;
@@ -20,13 +55,55 @@
 }
 
 .addstock {
-    background-color: rgb(0, 162, 255);
+    background-color: rgb(78, 78, 78);
     padding: 30px;
-    border-radius: 15px;
-    color: rgb(0, 0, 60);
+    
+    color: rgb(177, 177, 177);
+    height: 100vh;
 }
 
-.addstock 
+.displaystock {
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: auto;
+    
+    
+}
+.navbar a{
+    margin-left: 1100px;
+    text-decoration: none;
+}
+.displaystock > div{
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: rgb(244, 244, 244);
+    border: 2px solid rgb(72, 72, 72);
+}
+
+.displaystock > div:last-child{
+    margin-bottom: 100px;
+}
+
+.stock-display {
+    display: flex;
+    justify-content: space-between;
+}
+.stock-display button,.stock-display p{
+    color:black;
+    margin: 15px;
+
+}
+
+
+.displaystock div h2,.displaystock div h3 {
+    color: black;
+}
+
+
 
 .addstock h2 {
     text-align: center;
@@ -42,7 +119,7 @@
 }
 
 .container {
+    height: 100%;
     display: flex;
-    justify-content:space-evenly;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap')
